@@ -32,8 +32,8 @@ i{
 /* layout */
 
 main, header{
-    width: 290px;
-    margin: 0 auto;
+    width: 80%;
+    margin: 10px auto;
 }
 
 header{
@@ -129,4 +129,12 @@ button{
 /* utility */
 .hidden{
     display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    main, header{
+        width: 50%;
+    }
+    
 }
